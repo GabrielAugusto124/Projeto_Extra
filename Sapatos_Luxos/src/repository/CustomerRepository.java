@@ -1,7 +1,7 @@
 package repository;
 import model.Address;
 import model.Customer;
-import util.DatabaseConnection;
+import jdbc.DatabaseConnection;
 import java.sql.*;
 public class CustomerRepository {
     public void save(Customer c){
