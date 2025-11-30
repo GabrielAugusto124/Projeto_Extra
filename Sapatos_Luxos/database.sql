@@ -1,5 +1,5 @@
-CREATE DATABASE shoe_store;
-USE shoe_store;
+CREATE DATABASE sapatos_luxos;
+USE sapatos_luxos;
 
 CREATE TABLE customer (
  id INT AUTO_INCREMENT PRIMARY KEY,
