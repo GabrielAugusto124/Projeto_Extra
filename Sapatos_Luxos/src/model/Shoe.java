@@ -3,7 +3,7 @@ package model;
 public class Shoe {
     private int id;
     private String name;
-    private int size;        // ← VOCÊ NÃO TINHA ESSE ATRIBUTO
+    private int size;        
     private double price;
     private Category category;
 
@@ -25,7 +25,7 @@ public class Shoe {
         return name;
     }
 
-    public int getSize() {           // ← VOCÊ TAMBÉM NÃO TINHA ISSO
+    public int getSize() {           
         return size;
     }
 
